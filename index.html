@@ -1,9 +1,12 @@
-<html>
-  <head>   
-    <link rel="stylesheet"
-    href="CSS/style.css">
-  </head>
-  <body>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="stylesheet" href="CSS/style.css">
+</head>
+
+<body>
 
   <nav>
     <div class="logo">
@@ -11,33 +14,102 @@
     </div>
     <ul class="li">
       <li><a href="#"> About</a></li>
-      <li><a href="#"> Skills</a></li>
-      <li><a href="#"> Work</a></li>
-      <li><a href="#"> Contact</a></li>
+      <li><a class="mySkillsLink" href="#mySkills"> Skills</a></li>
+      <li><a class ="myWorkLink" href="#myWork"> Work</a></li>
+      <li><a class="footer" href="#footer"> Contact</a></li>
     </ul>
   </nav>
-  
+
   <main>
-    <section id = "hero"
-     <h1>Hi, I’m Pearlyn.
-      I’m a UX/UI Student at Monash University with a marketing background and retail management.
+    <section id="hero">
+      <h1>Hi, I&#39;
+        m Pearlyn.
+        I&#39;m a UX/UI Student at Monash University with a marketing background and strong retail management experience.
       </h1>
     </section>
   </main>
+
+  <div id="mySkills" class="mySkills">
+    <h1>My skills</h1>
+
+
+  <div class="User-research">
+    <p class="User-research-heading"> User Research
+    </p>
+    <p class="User-research-des"> I am passionate about translating users&#39; difficulties into valuable information for the team to create a solution. I use empathy and view it from their perspective to understand why this might be an issue for users and how it interferes with their desires and needs. It&#39;s important to me that the contexts and insights gather are authentic to produce the best opportunities.
+    </p>
+  </div>
+
+  <div class="Interaction-design">
   
+  <p class="Interaction-design-heading"> Interaction Design
+  </p>
+  <p class="Interaction-design-des"> Considering users' insights is critical when creating purposeful, efficient, effective interactive designs that exceed users' needs and demands. The ability to surpass their expectations will give you an edge in how frequently users interact with your product and leave an impression.
+
+  </p>
+  </div>
+
+  <div class="Aesthetics-heading">
+    <p class="Aesthetics-heading"> Aesthetics
+    </p>
+    <p class="Aesthetics-des">
+      This design principle is prominent in my projects to enhance functionality and complement design usability. It's essential to captivate users and differentiate our elements to be easily distinguished and recognized.
+
+    </p>
+  </div>
+
+  <div class="Empathy-heading">
+    <p class="Empathy-heading"> Empathy
+    </p>
+    <p class="Empathy-des"> This skill is instilled in me and is something I carry daily and am proud of. I believe it's an important attribute to have to relate and understand each other. It helps us be aware of users' insights, motives, limitations and frustration to deliver an accurate and personable representation of our data.
+
+    </p>
+  </div>
+
+  <div id ="myWork" class="myWork">
+    <img class="thumbnail Newme" src="images/new-me.png" alt="newme">
+    <p class="newme"> New Me
+    </p>
+    <p class="newme des">
+      NewMe is a calendar mobile app which allows users to set and keep track of their goals whilst also providing a platform for digital journaling.
+    </p>
+
+    <img class="thumbnail Auspost" src="images/Auspost.png" alt="auspost">
+    <p class="Auspost">
+      Australia Post - Government Agency </p>
+    <p class="auspost des">
+      This project is aimed to understand Government agency users struggles to navigate their website and mobile content and to create a new desktop and mobile design to rectify the struggles.
+    </p>
+
+    <img class="thumbnail Pogues" src="images/Pogues.png" alt="pogues">
+    <p class="Pogues">
+      Pogues - Mobile case study </p>
+    <p class="Pogues des">
+      Develop an app that helps travellers explore budget-friendly travel plans without compromising the value of their experiences.
+    </p>
+  </div> <!-- end of my work section -->
+
   <footer>
-    <div class= "footer-content">
-    <h4> Let's connect</h4>
-      <ul class ="socials">
+    <div id = "footer" class ="footer">
+    <div class="footer-content">
+      <h4> Let's connect</h4>
+      <ul class="socials">
         <li><a href="#"> Linkedin</a>
         <li><a href="#"> Email</a>
-         <li><a href="#"> Resume</a>
+        <li><a href="#"> Resume</a>
+        </li></li></li>
       </ul>
-    </div> 
-    <div class= "footer-bottom">
+    </div>
+    <div class="footer-bottom">
       <p> copyright &copy; 2023 pearl. designed by Pearlyn </p>
     </div>
+  </div>
   </footer>
 
 </body>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+<script src="Javascript/index.js"></script>
+
+
 </html>

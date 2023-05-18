@@ -1,13 +1,13 @@
-.logo{
+.logo{ /*  . is a class */
     color: white; 
     background-color: black;
-    margin-right:525px;
+    margin-right:700px;
     font-size: 40px;
     line-height: 80px;
     padding: 0 100px;
     font-weight: bold;
   }
-  nav {
+  nav { /* no dot no # is just a element tag */
     display:inline-flex;
     background: #000;
     width:100%;
@@ -17,13 +17,14 @@
     line-height:170px;
   }
   
-  li a {
+  li a { /* the of have a spacing in between is a nested element tag, so an a tag nested in a li tag*/
     display: block;
     padding: 8px;
     font-weight: 500;
     font-size: 30px;
     color: white;
     text-decoration: none;
+  
   }
   
   ul
@@ -36,7 +37,7 @@
   }
   
   section#hero{
-    height: 700px;
+    height: 100vh;
     display: flex;
     align-items: center;
     background-color: black;
@@ -45,36 +46,197 @@
     font-weight: bold;
     color: white;
     text-align: center;
-     
+    width:100%;
   }
+
+.mySkills{
+  display:inline-block;
+color:white;
+background-color: black;
+line-height: 20px;
+width:100%;
+height: 100vh;
+
+}
+
+  .User-research{
+    display: inline-block;
+    color:white;
+background-color: black;  
+line-height: 20px;
+ }
+
+ .Interaction-design {
+  display: inline-block;
+  color:white;
+  background-color: black; 
+ }
+
+ .Aesthetics{
+  display: inline-block;
+  color:white;
+  background-color: black; 
+ }
+
+ .Empathy{
+  display: inline-block;
+  color:white;
+  background-color: black; 
+ }
+
+ .User-research-heading{
+  font-size: 40px;
+  font-weight: bold; }
+
+.Interaction-design-heading{
+    font-size: 40px;
+  font-weight: bold;
+  color:white;
+  background-color: black; 
+ }
+
+ .Aesthetics-heading{
+  font-size: 40px;
+font-weight: bold;
+color:white;
+background-color: black; 
+}
+
+.Aesthetics-des{ 
+  font-size: 20px;
+  font-weight: 100;
+}
+
+.User-research-des{
+margin-top: 20px;
+margin-bottom: 20px;
+}
+
+.Interaction-design-des{
+  margin-top: 20px;
+  margin-bottom:20px;
+}
+
+.Empathy-des{ 
+  font-size: 20px;
+  font-weight: 100;
+}
+.Empathy-heading{
+  font-size: 40px;
+font-weight: bold;
+color:white;
+background-color: black; 
+}
+
+  /* my work secction starts here */
+
+  .mywork{
+    width:100%;
+    height:100vh;
+    background-color: black;
+    color:white;
+  }
+body{
+  color:white;
+  background-color: black;
+}
+
+  .myWork .newme{
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 40px;
+    margin-bottom:40px;
+  }
+
+  .myWork .newme.des{
+    font-size: 20px;
+    font-weight: 100;
+    margin-top: 20px;
+    margin-bottom:20px;
+    padding-bottom:20px;
+  }
+
+  .thumbnail.Newme{
+width: 100%
+  }
+
+  .myWork .Auspost{
+    font-size: 40px;
+    font-weight: bold;
+    color:white;
+    background-color: black;
+  
+  }
+
+  .myWork.Auspost.des {
+    font-size: 27px;
+    font-weight: 100;
+    color:white;
+    background-color: black;
+    margin-top:20px;
+    margin-bottom:20px;
+  }
+
+  .thumbnail.Auspost{
+    width: 100%;
+    margin:0px;
+      }
+
+  .myWork .Pogues{
+    font-size: 40px;
+    font-weight: bold;
+    color:white;
+    background-color: black;
+  }
+
+  .myWork .Pogues.des {
+    font-size: 20px;
+    font-weight: 100;
+    padding-bottom: 100px;
+    color:white;
+    background-color: black;
+  }
+
+  .thumbnail.Pogues{
+    width: 100%
+      }
+  /* my work secction ends here */
   
   
   footer {
-     height: 400px;
-    display: flex;
+     height: 25%;
     background-color: black;
     color: white;
+    width:100%;
+    margin-left: auto;
+    margin-right: auto;
   }
   
   .footer-content {
-    display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
     text-align-last: center;
+   
+    
   }
   
   .footer-content h4 {
     font-size: 40px;
-    padding: 0 600px;
-    display:inline-flex;
+  background-color: black;
+  
   }
   
   .footer-bottom{ 
    font-size: 20px;
    color: white;
-   position: absolute;
-    bottom: -950px;
-    padding: 0 535px;
+   background-color: black;
+   text-align: center;
+   position: relative;
   }
     
+  @media only screen and(min-width:600px){
+    body{
+      background-color:lightblue;
+  }
+}
