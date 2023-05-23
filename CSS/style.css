@@ -1,16 +1,14 @@
 .logo{ /*  . is a class */
     color: white; 
     background-color: black;
-    margin-right:700px;
     font-size: 40px;
     line-height: 80px;
-    padding: 0 100px;
     font-weight: bold;
   }
   nav { /* no dot no # is just a element tag */
     display:inline-flex;
     background: #000;
-    width:100%;
+    width: 100%;
   }
   
   li{
@@ -26,7 +24,17 @@
     text-decoration: none;
   
   }
+
+  nav ul.li{
+    display: block;
+    float: right;
+    width:100%;
+  }
   
+  nav ul.li li{
+    display: inline-block;
+  }
+
   ul
   {
   list-style-type: none;
@@ -46,7 +54,7 @@
     font-weight: bold;
     color: white;
     text-align: center;
-    width:100%;
+    width: 100%;
   }
 
 .mySkills{
@@ -54,8 +62,10 @@
 color:white;
 background-color: black;
 line-height: 20px;
-width:100%;
+width: 100%;
 height: 100vh;
+font-size: 20px;
+
 
 }
 
@@ -63,7 +73,7 @@ height: 100vh;
     display: inline-block;
     color:white;
 background-color: black;  
-line-height: 20px;
+
  }
 
  .Interaction-design {
@@ -85,21 +95,24 @@ line-height: 20px;
  }
 
  .User-research-heading{
-  font-size: 40px;
+  font-size: 30px;
   font-weight: bold; }
 
 .Interaction-design-heading{
-    font-size: 40px;
+    font-size: 30px;
   font-weight: bold;
-  color:white;
-  background-color: black; 
+
  }
 
  .Aesthetics-heading{
-  font-size: 40px;
+  font-size: 30px;
 font-weight: bold;
-color:white;
-background-color: black; 
+
+}
+
+.Empathy-heading{
+  font-size: 30px;
+font-weight: bold;
 }
 
 .Aesthetics-des{ 
@@ -121,17 +134,12 @@ margin-bottom: 20px;
   font-size: 20px;
   font-weight: 100;
 }
-.Empathy-heading{
-  font-size: 40px;
-font-weight: bold;
-color:white;
-background-color: black; 
-}
+
 
   /* my work secction starts here */
 
   .mywork{
-    width:100%;
+    width: 100%;
     height:100vh;
     background-color: black;
     color:white;
@@ -157,7 +165,11 @@ body{
   }
 
   .thumbnail.Newme{
-width: 100%
+ max-width: 800px;
+ margin: 0 auto;
+  height: auto;
+  width: 100%;
+  display: block;
   }
 
   .myWork .Auspost{
@@ -178,8 +190,11 @@ width: 100%
   }
 
   .thumbnail.Auspost{
-    width: 100%;
-    margin:0px;
+    max-width: 800px;
+    margin: 0 auto;
+     height: auto;
+     width: 100%;
+     display: block;;
       }
 
   .myWork .Pogues{
@@ -192,13 +207,17 @@ width: 100%
   .myWork .Pogues.des {
     font-size: 20px;
     font-weight: 100;
-    padding-bottom: 100px;
     color:white;
     background-color: black;
   }
 
   .thumbnail.Pogues{
-    width: 100%
+    max-width: 800px;
+    margin: 0 auto;
+     height: auto;
+     width: 100%;
+     display: block;
+
       }
   /* my work secction ends here */
   
@@ -207,7 +226,7 @@ width: 100%
      height: 25%;
     background-color: black;
     color: white;
-    width:100%;
+    width: 100%;
     margin-left: auto;
     margin-right: auto;
   }
